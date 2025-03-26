@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Audios en HTML5</title>
+    <style>
+        /* Estilo básico para alinear los audios */
+        .audios-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+            gap: 20px;
+        }
+        audio {
+            width: 100%; /* Los audios ocuparán todo el ancho disponible */
+        }
+    </style>
+</head>
+<body>
+    <h1>4 Audios en HTML5</h1>
+    <div class="audios-container">
+        <audio controls>
+            <source src="audio.mp3" type="audio/mp3">
+            Tu navegador no soporta el formato de audio.
+        </audio>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mp3">
+            Tu navegador no soporta el formato de audio.
+        </audio>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mp3">
+            Tu navegador no soporta el formato de audio.
+        </audio>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mp3">
+            Tu navegador no soporta el formato de audio.
+        </audio>
+    </div>
+</body>
+</html>

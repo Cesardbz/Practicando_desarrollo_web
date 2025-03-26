@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Diseño Web</title>
+        <meta name="description" content="sistema de ventas">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="html5,css,javascript,desarrollo web">
+        <meta name="author" content="Cesar Durand Sanchez">
+        <link rel="shortcut icon" href="../img/oficina.png" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/639c27108d.js" crossorigin="anonymous"></script>
+        <!--Para los estilos css-->
+        <link rel="stylesheet" href="/CSS/ejemplo.css">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 30px;
+            }
+            h1{
+                text-align: center;
+                color: #333
+            }
+            table{
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+            table, th , td {
+                border: 1px solid #0c0c0c;
+            }
+            th ,  td {
+                padding: 10px;
+                text-align: left;
+            }
+            th{
+                background-color: #3498DB;
+                color:white
+            }
+            td {
+                background-color: #f4f4f4;
+            }
+            .actions {
+                text-align: center;
+            }
+            .icon {
+                font-size: 20px;
+                margin: 0 10px;
+                cursor: pointer;
+                transition: color 0.3s ease;
+                
+            }
+            .icon-edit {
+                color: #F1C40F
+            }
+            .icon-delete {
+                color: #E74C3C
+            }
+            .icon:hover {
+                color: #2C3E50
+            }
+        </style>
+        
+    </head>
+    <body>
+        <h1>Listas de productos</h1>
+        <table border="2px" style="width: 100%; border-color: rgb(80, 156, 5); font-family: 'Times New Roman', Times, serif; border-style: dashed;">
+            <thead>
+                <tr style="color: rgb(3, 3, 3); background-color: rgb(8, 253, 8);">
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <body>
+                <tr>
+                    <td>Producto 1</td>
+                    <td>$10.00</td>
+                    <td class="actions"><i class="fas fa-edit icon icon-edit" title="modificar"></i>
+                    <i class="fas fa-trash icon icon-delete" title="Eliminar"></i>
+                </td>
+                </tr>
+                <tr>
+                    <td>Producto 2</td>
+                    <td>$15.00</td>
+                    <td class="actions"><i class="fas fa-edit icon icon-edit" title="modificar"></i>
+                        <i class="fas fa-trash icon icon-delete" title="Eliminar"></i>
+                </tr>
+                <tr>
+                    <td>Producto 3</td>
+                    <td>$20.00</td>
+                    <td class="actions"><i class="fas fa-edit icon icon-edit" title="modificar"></i>
+                        <i class="fas fa-trash icon icon-delete" title="Eliminar"></i>
+                </tr>
+                </tr>
+            </body>
+        </table>
+    
+
+
+
+
+
+        <script src="/javascript/ejemplo.js" async defer></script>
+    </body>
+</html>

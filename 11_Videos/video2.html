@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Videos en HTML5</title>
+    <style>
+        .videos-container {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 20px;
+        }
+        video {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>4 Videos en HTML5</h1>
+    <div class="videos-container">
+        <video controls>
+            <source src="/11_Videos/video.mp4" type="video/mp4">
+            Tu navegador no soporta el formato de video.
+        </video>
+        <video controls>
+            <source src="/11_Videos/video.mp4" type="video/mp4">
+            Tu navegador no soporta el formato de video.
+        </video>
+        <video controls>
+            <source src="/11_Videos/video.mp4" type="video/mp4">
+            Tu navegador no soporta el formato de video.
+        </video>
+        <video controls>
+            <source src="/11_Videos/video.mp4" type="video/mp4">
+            Tu navegador no soporta el formato de video.
+        </video>
+    </div>
+</body>
+</html>

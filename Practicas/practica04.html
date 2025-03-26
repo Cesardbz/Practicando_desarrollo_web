@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Diseño Web</title>
+        <meta name="description" content="sistema de ventas">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="html5,css,javascript,desarrollo web">
+        <meta name="author" content="Cesar Durand Sanchez">
+        <link rel="shortcut icon" href="../img/oficina.png" type="image/x-icon">
+        <!--Para los estilos css-->
+        <link rel="stylesheet" href="/CSS/ejemplo.css">
+    </head>
+    <body>
+        <h2 style="text-align: center;">Registro_Personal</h2>
+        <fieldset>
+            <legend>Información Personal</legend>
+            <label for="nombre">Nombre: </label> 
+            <input type="text">
+            <br><br>
+            <label for="apellido">Apellido: </label>
+            <input type="text">
+            <br><br>
+            <label for="fecha">Fecha: </label>
+            <input type="date">
+            <br><br>
+            <label for="genero">Genero: </label>
+            <br>
+            <input type="radio"><label for="masculino">Masculino</label>
+            <br>
+            <input type="radio"><label for="femenino">Femenino</label>
+            <br>
+            <input type="radio"><label for="otros">Otros</label>
+            <br><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Informacion de Contacto</legend>
+            <label for="correo">Correo Electronico: </label>
+            <input type="email">
+            <br><br>
+            <label for="telefono">Número de Teléfono: </label>
+            <input type="tel">
+            <br><br>
+            <label for="direccion">Dirección:</label>
+            <br>
+            <textarea name="direccion" id="direccion"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Información de la cuenta</legend>
+            <label for="usuario">Nombre de Usuario: </label>
+            <input type="text">
+            <br><br>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password">
+            <br><br>
+            <label for="contraseña2">Confirmar contraseña:</label>
+            <input type="password">
+        </fieldset>
+        
+        <fieldset>
+            <legend>Preferencias</legend>
+            <label for="color">Seleccionar un Color Favorito</label>
+            <input type="color">
+            <br><br>
+            <input type="checkbox"> <label for="aceptar">Acepto los Términos y Condiciones</label>
+            <br><br>
+        </fieldset>
+        <br>
+        <input type="submit" value="Registrarse">
+        
+
+
+
+        <script src="/javascript/ejemplo.js" async defer></script>
+    </body>
+</html>

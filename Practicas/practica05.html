@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Diseño Web</title>
+        <meta name="description" content="sistema de ventas">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="html5,css,javascript,desarrollo web">
+        <meta name="author" content="Cesar Durand Sanchez">
+        <link rel="shortcut icon" href="../img/oficina.png" type="image/x-icon">
+        <!--Para los estilos css-->
+        <link rel="stylesheet" href="/CSS/ejemplo.css">
+    </head>
+    <body>
+        <form action="" style="padding: 30%;">
+            <h2 style="text-align: center;">Formulario de Registro</h2>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text">
+            <br><br>
+            <label for="correo">Correo electrónico: </label>
+            <input type="email">
+            <br><br>
+            <label for="telefono">Número de Teléfono: </label>
+            <input type="tel">
+            <br><br>
+            <label for="nacimiento">Fecha de nacimiento: </label>
+            <input type="date">
+            <br><br>
+            <label for="genero">Género: </label>
+            <br>
+            <input type="radio" id="opcion1" name="opcion1" value="opcion1" checked><label for="opcion1">Masculino</label>
+            <br>
+            <input type="radio" id="opcion2" name="opcion2" value="opcion2"><label for="femenino">Femenino</label>
+            <br>
+            <input type="radio"><label for="otros">Otros</label>
+            <br><br>
+            <label for="aficiones">Aficiones:</label>
+            <br>
+            <input type="checkbox"><label for="deporte">Deporte</label>
+            <br>
+            <input type="checkbox"><label for="musica">Música</label>
+            <br>
+            <input type="checkbox"><label for="lectura">Lectura</label>
+            <br>
+            <br>
+            <label for="pasis">País de residencia: </label><select name="pais" id="pais" required>
+                <option value="">Mexico</option>
+                <option value="">Argentina</option>
+                <option value="">Colombia</option>
+                <option value="">Salvador</option>
+                <option value="">Ecuador</option>
+            </select>
+            
+            <br><br>
+            <label for="mensaje">Mensaje:</label>
+            <br>
+            <textarea name="mensaje" id="mensaje" rows="2" cols="40"></textarea>
+            <br><br>
+            <input type="checkbox"><label for="acepto">Acepto de los terminos y condiciones</label>
+    
+            <br><br>
+            <input type="submit" value="Enviar" checked>
+            <br><br>
+        </form>
+
+        <script src="/javascript/ejemplo.js" async defer></script>
+    </body>
+</html>
