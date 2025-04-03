@@ -1,0 +1,32 @@
+p {
+    text-align: justify;
+    color: blue;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    padding: 10px;
+    margin: 10px;
+}
+p:hover {
+    color: burlywood;
+}
+
+h1,h2 {
+    color: brown;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1:hover{
+    color: chartreuse;
+}
+
+h2:hover {
+    color: chartreuse;
+}
+

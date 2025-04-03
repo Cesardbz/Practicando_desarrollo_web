@@ -1,0 +1,60 @@
+/*Elabora una presentacion que contenga h2 como titulo y 3 etiquetas de tipo p para los parrafos, asigna los selectores de tipo clase*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    /*fuente de texto*/
+    font-family: "Roboto", sans-serif;
+    color: rgb(89, 5, 163);
+    background-color: #f0f0f0;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0;
+    padding: 20px;
+}
+
+.titulo {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    /*border*/
+    border-color: rgb(62, 185, 233) rgb(0, 223, 243) rgb(9, 70, 117);
+    border-width: 5px;
+    border-style: solid;
+}
+
+
+.cuerpo {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fce0ca;
+    border-radius: 10px;
+    border-color: rgb(242, 5, 255);
+    border: rgb(195, 0, 255) 5px dotted;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.contenido {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.titulo:hover {
+    background-color: rgb(122, 248, 255);
+    text-transform: lowercase;
+}
+
+.contenido:hover {
+    background-color: rgb(147, 215, 221);
+}

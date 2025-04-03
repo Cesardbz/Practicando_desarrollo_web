@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;/*color alternativo*/
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-pantalla-hojas-monstera-negro_53876-102420.jpg?t=st=1743541306~exp=1743544906~hmac=b35b1e8e89558ed1d7403eea36e3cd9023324e28c3a55778e1e1d52de154a095&w=1380) ;
+    background-size: cover;/*Ajusta la imagen para cubrir el tamaño de fondo*/
+
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    /*PARA CENTRAR EN LA PAGINA EL CONTENIDO*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.contenido {
+    background-color: #383737;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: ridge;
+    border-color: rgb(2, 113, 161);
+    margin: 35px;
+    padding: 16px 32px;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+}
+
+.contenido::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+/*colores a los textos*/
+p {
+    color: aqua;
+    text-align: justify;
+}
+
+h1 {
+    color: lightgreen;
+}
+
+h1:hover {
+    color: black;
+  
+}
+p:hover {
+    color: darkgreen;
+}
+.contenido:hover {
+    background-color: cadetblue;
+   
+}

@@ -1,0 +1,58 @@
+/*Tamaño y dimensiones*/
+
+img{
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+/*posicionamiento*/
+
+img {
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+/*Alineacion*/
+.container {
+    text-align: center;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+/*Borders*/
+
+img {
+    border: 2px solid #000000;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+
+
+/*Otras propiedades*/
+
+img {
+    display: inline;
+    overflow: hidden;
+    background: url(https://images.unsplash.com/photo-1470058869958-2a77ade41c02?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZvbmRvJTIwZGUlMjBzZWx2YXxlbnwwfHwwfHx8MA%3D%3D) no-repeat center;
+}*
+
+body {
+    width: 100vh;
+    height: 100vh;
+ }
+
+
+
+
+

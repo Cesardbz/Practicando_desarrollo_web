@@ -1,0 +1,116 @@
+* h1,h2{
+    text-align: center;
+    color: #333;
+}
+
+p,strong {
+    padding: 15px;
+    margin: 10px auto;
+    font-size: 16px;
+    width: 50%;
+    box-sizing: border-box;/*Asegura que el padding no afecta el ancho*/
+
+}
+
+/*Bordes*/
+
+.border-none {
+    border: none;
+}
+
+.border-hidden {
+    border: hidden;
+}
+
+.border-dotted {
+    border: 5px dotted rgb(179, 82, 2);
+}
+
+.border-dashed {
+    border: 5px dashed chartreuse;
+}
+
+.border-solid {
+    border: 5px solid blue;
+    text-align: center;
+    background-color: aqua;
+    width: 100%;
+}
+.border-solid:hover {
+    background-color: cadetblue;
+    width: 80%;
+    color: darkblue;
+
+}
+
+.border-double {
+    border: 5px double orange;
+}
+
+
+.border-groove {
+    border: 5px groove pink;
+}
+
+
+.border-ridge {
+    border: 5px ridge purple;
+}
+
+.border-inset {
+    border: 5px inset cyan;
+}
+
+.border-outset {
+    border: 5px outset yellow;
+}
+
+/*Border compuestos*/
+
+.border-top {
+    border-top: 5px solid skyblue;
+}
+
+.border-right {
+    border-right: 5px dashed yellowgreen;
+}
+
+.border-bottom{
+    border-bottom: 5px dotted red;
+}
+
+.border-left {
+    border-left: 5px double burlywood;
+}
+
+.border-all {
+    border-top: 5px solid skyblue;
+    border-right: 5px dashed yellowgreen;
+    border-bottom: 5px dotted red;
+    border-left: 5px double burlywood;
+    border-radius: 20px;
+    color: blue;
+    line-height: 1.5;
+    text-align: justify;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    margin-bottom: 50px;
+}
+
+.border-all:hover {
+    background-color: cadetblue;
+    color: aliceblue;
+    transform: scale(0.9);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+*{
+    margin: 3px;
+    padding: 3px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2 .titulo-enlace {
+    color:  orange; 
+    line-height: 1.8;
+    font-style: italic;
+}
+
+#seccion1 {
+    background-color: rgb(208, 207, 204);
+    padding: 10px;
+    line-height: 1.8;
+    
+}
+
+#seccion1 a {
+    color: orange;
+}
+
+
+
+h3 .titulo-enlace {
+    color: blueviolet;
+    line-height: 1.8;
+}
+
+
+#seccion2 {
+    background-color: pink;
+    padding: 10px;
+    line-height: 1.8;
+}
+
+#seccion2 a {
+    color: blueviolet;
+}
+
+

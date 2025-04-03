@@ -1,0 +1,47 @@
+ 
+* {
+    margin: 2px;
+    padding: 2px;
+}
+
+#main-header {
+    background-color: blue;
+    text-align: center;
+}
+
+#main-header p {
+    color: aliceblue;
+    line-height: 1.8;
+}
+
+.destacado {
+    color: red;
+}
+
+a {
+    color: blueviolet;
+}
+
+.enlace-btn {
+    background-color: rgb(29, 199, 16);
+    color: aliceblue;
+    margin: 4px;
+    padding: 4px;
+    line-height: 2.5;
+}
+
+.enlace-btn:hover {
+    color: brown;
+}
+
+#footer {
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #8c8c8c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;/*color alternativo*/
+    background-image: url(https://wallpapers.com/images/featured/fondos-de-hermosos-paisajes-wnxju2647uqrcccv.jpg) ;
+    background-size: cover;/*Ajusta la imagen para cubrir el tamaño de fondo*/
+
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    /*PARA CENTRAR EN LA PAGINA EL CONTENIDO*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.container p{
+    font-size: 1.2em;
+}
+

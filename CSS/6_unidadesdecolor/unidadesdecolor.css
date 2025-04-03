@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+/*Estilos generales*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c3c0c0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: chocolate;
+    font-family: "Bungee Tint", sans-serif;
+    
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;/*Centra los elementos en fila*/
+    align-items: center;/*Centra los eleementos en los dos ejes*/
+    height: 100vh;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #f0f0f0;
+    font-weight: bold;
+   
+}
+
+.box1 {
+    background-color: red;/*nombre del colr*/
+}
+
+.box2 {
+    background-color: green;/*Hexadecimal (verde)*/
+}
+
+.box3 {
+    background-color: blue;/*Azul*/
+}
+
+.box4 {
+    background-color: rgba(255, 0, 0, 0.5);/*RGBA (rojo semi-transparante)*/
+}
+
+.box5{
+    background-color: hsl(240, 100%, 50%) ;/*HSL azul*/
+}
+
+.box6 {
+    background-color: hsla(120, 100%, 50%, 0.7);/*HSLA (verde semi-transporante)*/
+}
