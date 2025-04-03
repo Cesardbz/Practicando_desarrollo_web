@@ -9,12 +9,32 @@ h1{
 
 h2 .titulo-enlace {
     color:  orange; 
+
+}
+*{
+    margin: 3px;
+    padding: 2px;
+    
+}
+/*modifcando el titulo*/
+h1 {
+    text-align: center;
+    padding: 10px;
+    line-height: 1.8;
+}
+
+h1 .p {
+    line-height: 1.8;
+}
+/**/
+h2 .titulo-enlace {
+    color: chocolate;
     line-height: 1.8;
     font-style: italic;
 }
 
 #seccion1 {
-    background-color: rgb(208, 207, 204);
+    background-color: rgb(180, 176, 176);
     padding: 10px;
     line-height: 1.8;
     
@@ -24,6 +44,10 @@ h2 .titulo-enlace {
     color: orange;
 }
 
+#seccion1 a {
+    color: red;
+   
+}
 
 
 h3 .titulo-enlace {
@@ -36,10 +60,9 @@ h3 .titulo-enlace {
     background-color: pink;
     padding: 10px;
     line-height: 1.8;
+
 }
 
 #seccion2 a {
     color: blueviolet;
 }
-
-
