@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+    padding: 10px;
+    height: 400px;
+    margin: 20px;
+    background-color: yellow
+}
+h2{
+    text-align: center;
+    color: red;
+    font-size: 35px;
+}
+.item{
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    background-color: saddlebrown;
+    display: flex;
+    justify-content: center;
+    /*propiedades*/
+    align-items: center;/*centrado*/
+    /*align-items: end;
+    align-items: start;*/
+    margin: 5px;
+}
+
+/*contenedor con flex-direction diferente*/
+.row{
+    flex-direction: row;
+    /*justify-content: left;*/
+    /*Propiedades: izquieda centro, derecha*/
+    justify-content: left;
+    /*justify-content: right;*/
+
+    /*PROPIEDADES DEL ALING ITEMS: flex-end, flex-start*/
+    align-items: center;
+    /*aling-items; start;*/
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: start;
+}
+
+.Column{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Column-reverse{
+    flex-direction: column-reverse;
+    justify-content: left;
+    align-items: start;
+}

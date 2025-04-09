@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Tablas</title>
+    <meta name="description" content="sistema de ventas" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="html5,css,javascript,desarrollo web" />
+    <meta name="author" content="Wilmer Vera Ostios" />
+    <link rel="shortcut icon" href="../img/clientes1.png" type="image/x-icon" />
+     <link rel="stylesheet" href="formulario.css" />
+     <script src="https://kit.fontawesome.com/639c27108d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+        <form class="formulario" action="#" method="POST">
+            <h2>Registro de Producto</h2>
+            
+            <div class="input-group">
+                <label for="nombre">
+                    <i class="fas fa-cogs"></i>Nombre del Producto
+                </label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre del Producto" required>
+            </div>
+
+            <div class="input-group">
+                <label for="cantidad">
+                    <i class="fas fa-hashtag"></i>Cantidad
+                </label>
+                <input type="number" name="cantidad" id="cantidad" placeholder="Cantidad" required>
+            </div>
+
+            <div class="input-group">
+                <label for="precio">
+                    <i class="fas fa-dollar-sign"></i>Precio
+                </label>
+                <input type="number" name="precio" id="precio" placeholder="Precio" step="0.01" required>
+            </div>
+
+            <div class="input-group">
+                <label for="fecharegistro">
+                    <i class="fas fa-calendar-alt"></i>Fecha de Registro
+                </label>
+                <input type="date" name="fecharegistro" id="fecharegistro" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="marca">
+                    <i class="fas fa-tag"></i>Marca
+                </label>
+                <select name="marca" id="marca" required>
+                    <option value="">Selecciona la Marca</option>
+                    <option value="Marca1">Marca 1</option>
+                    <option value="Marca2">Marca 2</option>
+                    <option value="Marca3">Marca 3</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn-submit">Registrar Producto</button>
+        </form>
+    </div>
+    </body>
+</html>

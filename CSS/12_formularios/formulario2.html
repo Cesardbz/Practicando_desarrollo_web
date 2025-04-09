@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Tablas</title>
+    <meta name="description" content="sistema de ventas" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="html5,css,javascript,desarrollo web" />
+    <meta name="author" content="Wilmer Vera Ostios" />
+    <link rel="shortcut icon" href="../img/clientes1.png" type="image/x-icon" />
+     <link rel="stylesheet" href="formulario2.css" />
+     <script src="https://kit.fontawesome.com/639c27108d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+        <form class="formulario" action="#" method="POST">
+            <h2>Formulario de Registro de Clientes</h2>
+            
+            <div class="input-group">
+                <label for="nombre">
+                    <i class="fa-solid fa-user"></i></i>Nombre
+                </label>
+                <input type="text" name="nombre" id="nombre" placeholder="nombre" required>
+            </div>
+
+            <div class="input-group">
+                <label for="nombre">
+                    <i class="fa-solid fa-user"></i></i>Apellido
+                </label>
+                <input type="text" name="apellido" id="apellido" placeholder="apellido" required>
+            </div>
+
+            <div class="input-group">
+                <label for="cantidad">
+                    <i class="fas fa-hashtag"></i>DNI
+                </label>
+                <input type="number" name="cantidad" id="cantidad" placeholder="75265412" required>
+            </div>
+
+            <div class="input-group">
+                <label for="precio">
+                    <i class="fas fa-dollar-sign"></i>Telefono
+                </label>
+                <input type="number" name="precio" id="precio" placeholder="+51 987 254 125" step="0.01" required>
+            </div>
+
+            <div class="input-group">
+                <label for="precio">
+                    <i class="fa-solid fa-envelope"></i></i>Correo
+                </label>
+                <input type="email" name="correo" id="correo" placeholder="username@gmail.com" step="0.01" required>
+            </div>
+
+
+            <div class="input-group">
+                <label for="fecharegistro">
+                    <i class="fas fa-calendar-alt"></i>Fecha de Registro
+                </label>
+                <input type="date" name="fecharegistro" id="fecharegistro" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="marca">
+                    <i class="fas fa-tag"></i>Cargo
+                </label>
+                <select name="marca" id="marca" required>
+                    <option value="">Selecciona tu cargo</option>
+                    <option value="Marca1">Director ejecutivo</option>
+                    <option value="Marca2">Director Financiero</option>
+                    <option value="Marca2">Director de Recursos Humanos</option>
+                    <option value="Marca2">Director de Marketings</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="marca">
+                    <i class="fas fa-tag"></i>Genero
+                </label>
+                <select name="marca" id="marca" required>
+                    <option value="">Selecciona tu genero</option>
+                    <option value="Marca1">Masculino</option>
+                    <option value="Marca1">Femenino</option>                   
+                </select>
+            </div>
+
+            <button type="submit" class="btn-submit">Registrar cliente</button>
+        </form>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+.container{
+    height: 100vh;
+    display: flex;
+   /* flex-direction: row;/*/
+   /*flex-direction: row-reverse;*/
+   flex-direction: row;
+    align-items: center;
+    color: white;
+    gap: 10px;
+    background-color: rgb(40, 74, 247);
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    
+  
+}
+
+.item {
+    background-color: rgb(74, 241, 74);
+    padding: 20px;
+  
+}

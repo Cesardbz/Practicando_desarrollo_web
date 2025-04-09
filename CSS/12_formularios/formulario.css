@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*Contenedor del formulario*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/*Estilos de formulario*/
+.formulario {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+/*Estilos para los campos*/
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+.input-group label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.input-group label i{
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.input-group input, .input-group select{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+}
+
+.input-group input:focus, .input-group select:focus {
+    border-color: #007bff;
+}
+/*Estilo del boton de envio*/
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+/*Diseño responsive*/
+@media (max-width: 768px){
+    .formulario {
+        padding: 20px;
+    }
+    .btn-submit{
+        font-size: 14px;
+    }
+}

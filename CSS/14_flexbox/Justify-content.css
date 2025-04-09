@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+h2{
+    text-align: center;
+    color: red;
+    font-size: 35px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 100px;
+    border: 1px solid #333;
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin: 10px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: #3498db;
+    border-radius: 50%;
+}
+
+.start{
+    justify-content: flex-start;
+}
+
+/*MODIFICAR QUE CUANDO PASE EL MOUSE, TENGA UN COLOR DE FONDO DIFERENTE, SE ALINEE AL CENTRO 
+EL CIRCLE TENGA UN COLOR DIFERENTE Y EL PARRAFO COLOR DE LETRA*/
+.start:hover{
+    background-color: aqua;
+    justify-content: center;
+    color: brown;
+}
+
+.start .circle:hover{
+    background-color: bisque;
+}
+
+
+.end{
+    justify-content: flex-end;
+}
+
+.center{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}

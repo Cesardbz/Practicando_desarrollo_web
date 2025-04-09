@@ -9,11 +9,12 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    /*
     display: flex;
-    /*PARA CENTRAR EN LA PAGINA EL CONTENIDO*/
+    /*PARA CENTRAR EN LA PAGINA EL CONTENIDO*//*
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center;*/
 
 }
 
@@ -59,12 +60,13 @@ body {
 }
 /*colores a los textos*/
 p {
-    color: aqua;
+    color: rgb(152, 199, 12);
     text-align: justify;
 }
 
 h1 {
     color: lightgreen;
+    text-align: center;
 }
 
 h1:hover {
@@ -77,4 +79,60 @@ p:hover {
 .contenido:hover {
     background-color: cadetblue;
    
+}
+
+
+article {
+    background-color: #f8f8f8;
+    border: 2px solid #00bcd4;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+
+section {
+    display: flex;
+    flex-direction: row; /* coloca los artículos en fila */
+    justify-content: center;
+    gap: 20px; /* espacio entre artículos */
+    background-color: #ffffffcc;
+    border: 3px solid #0271a1;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 90%;
+    max-width: 1000px;
+    flex-wrap: wrap; /* para que se apilen en pantallas pequeñas */
+}
+
+article {
+    background-color: #f8f8f8;
+    border: 2px solid #00bcd4;
+    border-radius: 10px;
+    padding: 15px;
+    width: 45%; /* dos columnas */
+    min-width: 280px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+}
+
+article:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }

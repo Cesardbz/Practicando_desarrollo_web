@@ -1,0 +1,116 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.agregar-btn {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.agregar-btn:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para la tabla */
+.tabla-clientes {
+    width: 95%;
+    /*max-width: 1200px;*/
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilos para los iconos de acción */
+.acciones {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icono {
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Mostrar texto al pasar el mouse */
+.icono::after {
+    content: '';
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    font-size: 12px;
+    transition: opacity 0.3s;
+}
+
+.editar::after {
+    content: 'Editar';
+    color: #4CAF50; /* Verde */
+}
+
+.eliminar::after {
+    content: 'Eliminar';
+    color: #F44336; /* Rojo */
+}
+
+.icono:hover::after {
+    opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .tabla-clientes {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    .acciones {
+        gap: 10px;
+    }
+
+    .agregar-btn {
+        width: 180px;
+    }
+}

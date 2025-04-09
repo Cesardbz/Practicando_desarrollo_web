@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Barra de navegacion</title>
+        <meta name="description" content="sistema de ventas">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="html5,css,javascript,desarrollo web">
+        <meta name="author" content="Cesar Durand Sanchez">
+        <link rel="shortcut icon" href="../img/oficina.png" type="image/x-icon">
+        <!--Para los estilos css-->
+        <link rel="stylesheet" href="ejemplo1.css">
+    </head>
+    <body>
+        
+         <!-- Barra de Navegación -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="logo">MiLogo</a>
+      <div class="menu-toggle" id="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-list">
+        <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="/CSS/12_formularios/formulario2.html"><i class="fas fa-cogs"></i> Servicios</a></li>
+        <li><a href="#"><i class="fas fa-briefcase"></i> Portafolio</a></li>
+        <li><a href="#"><i class="fas fa-envelope"></i> Contacto</a></li>
+        <li><a href="#"><i class="fas fa-search"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+<script>
+// Script para manejar el menú en móviles
+const mobileMenu = document.getElementById('mobile-menu');
+const navList = document.querySelector('.nav-list');
+
+mobileMenu.addEventListener('click', () => {
+  navList.classList.toggle('active');
+});
+
+</script>
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/639c27108d.js" crossorigin="anonymous"></script>
+
+
+
+        <script src="/javascript/ejemplo.js" async defer></script>
+    </body>
+</html>

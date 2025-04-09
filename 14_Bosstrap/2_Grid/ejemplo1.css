@@ -1,0 +1,19 @@
+h5{
+    color: rgb(232, 75, 75);
+    text-align: center;
+}
+p{
+    color: rgb(18, 157, 18);
+}
+.container{
+    background-color: rgb(27, 28, 28);
+}
+
+ 
+.row{
+    background-color: antiquewhite;
+}
+
+.row:hover{
+    background-color: aqua;
+}
